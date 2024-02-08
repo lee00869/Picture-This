@@ -12,18 +12,13 @@ body {
   grid-template-columns: 1fr;
   align-items: center;
   background-color: cadetblue;
-  
+  overflow: hidden;
 }
 
 .title {
   padding: 50px 25px;
 
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  
-  /* justify-content: center;
-  align-items: center; */ 
   
 }
 
@@ -39,6 +34,7 @@ h2 {
 
 img {
   display: block;
+  overflow: hidden;
 }
 
 
