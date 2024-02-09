@@ -37,25 +37,25 @@ img {
   overflow: hidden;
 }
 
-.landscape{
+/* .landscape{
   display: block;
 }
 
 .square{
   display: none;
-}
+} */
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .landscape{
+  /* .landscape{
     display: none;
   }
   
   .square{
     display: block;
-  }
+  } */
 
 }
